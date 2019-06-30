@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"windowTest",
-		"window" ],
-	"name" : "WAAlignerTest",
+		"windowTest" ],
+	"name" : "WACommonGripMorphTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

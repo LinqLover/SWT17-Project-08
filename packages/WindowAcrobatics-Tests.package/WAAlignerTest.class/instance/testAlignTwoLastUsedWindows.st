@@ -3,8 +3,8 @@ testAlignTwoLastUsedWindows
 
 	|window1 window2|
 	
-	window1 := self openNewWindow.
-	window2 := self openNewWindow.
+	window1 := windowTest openNewWindow.
+	window2 := windowTest openNewWindow.
 	
 	WAAligner new alignLastUsedWindows: 2.
 	

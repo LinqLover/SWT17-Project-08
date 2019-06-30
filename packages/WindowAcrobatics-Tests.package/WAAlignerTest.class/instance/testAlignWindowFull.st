@@ -1,8 +1,6 @@
 testing
 testAlignWindowFull
 	
-	|window|
-	window := self openNewWindow.
 	WAAligner new align: #full.
 	
 	self

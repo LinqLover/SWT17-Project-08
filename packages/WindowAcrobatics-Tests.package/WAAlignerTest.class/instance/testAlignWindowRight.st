@@ -1,8 +1,6 @@
 testing
 testAlignWindowRight
 	
-	|window|
-	window := self openNewWindow.
 	WAAligner new align: #right.
 	
 	self

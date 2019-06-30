@@ -1,8 +1,6 @@
 testing
 testAlignWindowBottomRight
 	
-	|window|
-	window := self openNewWindow.
 	WAAligner new
 		align: #bottom;
 		align: #right.
