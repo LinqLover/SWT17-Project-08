@@ -4,4 +4,7 @@ performTest
 	^ Preferences
 		setFlag: #fullScreenLeavesDeskMargins
 		toValue: false
-		during: [super performTest]
+		during: [Preferences
+			setFlag: #activateAlignFocusedWindow
+			toValue: false
+			during: [super performTest]]

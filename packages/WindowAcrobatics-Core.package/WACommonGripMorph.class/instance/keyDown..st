@@ -1,6 +1,5 @@
 as yet unclassified
 keyDown: anEvent
 
-	anEvent keyValue = 16 ifTrue: [
-		^ self class mouseEnter: grips anyOne].
+	anEvent shiftPressed ifTrue: [self abandon].
 	super keyDown: anEvent

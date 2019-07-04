@@ -2,5 +2,5 @@ as yet unclassified
 maxGap
 
 	^ Sensor shiftPressed
-		ifFalse: [20]
+		ifFalse: [15]
 		ifTrue: [50]

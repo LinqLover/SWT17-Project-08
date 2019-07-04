@@ -1,9 +1,9 @@
 testing
 testAlignWindowLeft
 	
-	WAAligner new align: #left.
+	|window|
 	
-	self
-		assertBoundsFor: window
-		left: 0 top: 18
-		width: World width / 2 height: World height - 18
+	window := self openNewWindow.
+	WAAligner new align: #left.
+	self assert: (window position = (0 @ self dockingBarHeight)) description: 'Window didnt align correctly (left).'.
+	self assert: (window height = (World height - self dockingBarHeight)) description: 'Window didnt align correctly (left).'.

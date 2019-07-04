@@ -1,22 +1,24 @@
 {
 	"class" : {
+		"cursorDistFrom:" : "CT 7/4/2019 16:29",
 		"dimensionWeightFor:" : "CT 6/2/2019 20:01",
 		"gapBetween:and:" : "CT 6/2/2019 19:26",
 		"grips:" : "CT 6/2/2019 18:30",
 		"isActive" : "CT 6/2/2019 19:45",
 		"maxDist" : "CT 6/2/2019 18:58",
-		"maxGap" : "CT 6/2/2019 18:59",
-		"mouseEnter:" : "CT 6/27/2019 18:41",
-		"openGripsFor:" : "CT 6/2/2019 18:30" },
+		"maxGap" : "CT 7/4/2019 16:49",
+		"mouseEnter:" : "CT 7/4/2019 16:48",
+		"openGripsFor:" : "CT 7/4/2019 16:19" },
 	"instance" : {
 		"apply:" : "CT 6/2/2019 11:10",
 		"gripLayoutFrame" : "CT 6/2/2019 18:16",
 		"grips:" : "CT 6/2/2019 19:43",
 		"handlesKeyboard:" : "CT 6/2/2019 18:50",
-		"initialize" : "CT 6/2/2019 19:41",
-		"keyDown:" : "CT 6/2/2019 18:56",
-		"keyUp:" : "CT 6/2/2019 18:56",
+		"initialize" : "CT 7/4/2019 16:27",
+		"keyDown:" : "CT 7/4/2019 16:23",
 		"mouseLeave:" : "CT 6/2/2019 11:11",
 		"mouseMove:" : "CT 6/2/2019 19:50",
 		"orientation" : "CT 6/2/2019 11:21",
-		"resizeCursor" : "CT 6/2/2019 11:09" } }
+		"resizeCursor" : "CT 6/2/2019 11:09",
+		"step" : "CT 7/4/2019 16:06",
+		"stepTime" : "CT 7/4/2019 16:02" } }

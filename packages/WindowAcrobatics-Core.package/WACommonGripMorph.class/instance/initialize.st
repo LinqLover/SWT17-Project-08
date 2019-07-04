@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self color: (Color red alpha: 0.5).
+	self color: (Color midnight alpha: 0.3).
