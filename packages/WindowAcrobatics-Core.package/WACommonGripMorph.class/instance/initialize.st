@@ -3,4 +3,9 @@ initialize
 
 	super initialize.
 	
-	self color: (Color midnight alpha: 0.3).
+	okToAbandon := true.
+	self layoutPolicy: ProportionalLayout new.
+	self color: Color transparent.
+	self regularColor: Color midnight.
+	opacity := 0.
+	self boot.

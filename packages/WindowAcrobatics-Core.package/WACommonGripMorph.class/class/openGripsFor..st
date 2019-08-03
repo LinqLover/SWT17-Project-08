@@ -3,5 +3,5 @@ openGripsFor: aCollection
 
 	self allInstancesDo: #abandon.
 	^ (self grips: aCollection)
-		openInWorld;
+		open;
 		yourself

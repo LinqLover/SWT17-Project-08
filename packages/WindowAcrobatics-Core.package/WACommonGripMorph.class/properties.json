@@ -8,7 +8,10 @@
 	"instvars" : [
 		"grips",
 		"orientation",
-		"cursor" ],
+		"cursor",
+		"okToAbandon",
+		"targetOpacity",
+		"opacity" ],
 	"name" : "WACommonGripMorph",
 	"pools" : [
 		 ],
